@@ -1,0 +1,16 @@
+package pl.coderslab.oop.inheritance;
+
+public class Main01 {
+
+    public static void main(String[] args) {
+        AdvancedCalculator advancedCalculator = new AdvancedCalculator();
+        advancedCalculator.add(3, 5);
+        advancedCalculator.subtract(5, 2);
+        advancedCalculator.printOperations();
+        advancedCalculator.clearOperations();
+        advancedCalculator.pow(5, 2);
+        advancedCalculator.root(64.0 , 3.0);
+        advancedCalculator.printOperations();
+    }
+}
+
